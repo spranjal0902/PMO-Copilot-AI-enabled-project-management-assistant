@@ -1,0 +1,5 @@
+Project Helios — weekly sync, 18 June 2025. Present: Marco, Aisha, Ben, Sofia.
+Aisha: Good news — the training rerun on the anonymised data is finished. Model is back to 88% and fully compliant now.
+Sofia: Confirmed, the anonymisation is documented. That compliance risk is closed from my side.
+Ben: Backend API is done and integrated, calling it green.
+Marco: Decision: approve the model for production now that compliance has signed off.

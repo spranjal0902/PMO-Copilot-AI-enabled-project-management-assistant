@@ -1,0 +1,6 @@
+Project Helios — weekly sync, 4 June 2025. Present: Marco (PM), Aisha (ML), Ben (backend), Sofia (compliance).
+Aisha: The claims-scoring model hits 89% accuracy. But heads up — we trained on real customer claims data that wasn't anonymised first.
+Sofia: That's a GDPR problem. We can't use raw customer claims for training without anonymisation and a documented legal basis. Must fix before anything goes live.
+Marco: Understood. Aisha, please re-run training on the anonymised dataset by 30 June — high priority.
+Ben: Backend scoring API isn't ready, I'd call it amber. Blocker is the data contract from the platform team.
+Marco: Decision: no production release until Sofia signs off on the data-handling review. Firm.

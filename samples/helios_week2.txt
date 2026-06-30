@@ -1,0 +1,5 @@
+Project Helios — weekly sync, 11 June 2025. Present: Marco, Aisha, Ben.
+Aisha: The anonymised training rerun is still in progress — I'm blocked, waiting on the anonymised dataset from the data team.
+Marco: Okay, mark that one blocked. Let's escalate the data access.
+Ben: Backend API made progress but still amber, integration tests pending.
+Marco: Decision: we'll go with the managed vector DB instead of self-hosting — Ben flagged the maintenance cost and we agreed.

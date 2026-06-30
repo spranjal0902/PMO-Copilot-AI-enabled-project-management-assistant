@@ -1,0 +1,8 @@
+Project Helios — sprint review, 18 June 2025. Present: Marco (PM), Aisha (ML), Ben (backend), Sofia (compliance).
+Marco: Where are we on the claims-scoring model?
+Aisha: Model's at 89% accuracy, that's green. But we trained on real customer claims data that wasn't anonymised first — Sofia flagged it.
+Sofia: Right, that's a problem. Under GDPR we can't use raw customer claims for model training without anonymisation and a documented basis. We need to fix this before anything goes live.
+Marco: Understood. Aisha, please re-run training on the anonymised dataset by 30 June, high priority.
+Ben: Backend integration is slipping — the scoring API isn't ready, I'd call it amber. Main blocker is we're waiting on the data contract from the platform team.
+Marco: Okay. Decision: we will NOT ship to production until Sofia signs off on the data-handling review. That's firm.
+Marco: Also decided — we're going with the managed vector DB instead of self-hosting, Ben raised the maintenance cost and we agreed.
